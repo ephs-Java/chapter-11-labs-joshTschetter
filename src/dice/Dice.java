@@ -22,7 +22,11 @@ public class Dice {
 	}
 
 	//write a method to determine if two Dice objects are equals
-	
+	public boolean EqualTo(Dice one){
+		return(this==one);
+	}
 	//write a method that prints a Die
-
+    public void PrintDie(){
+    	System.out.println(spots);
+    }
 }
